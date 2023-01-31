@@ -9,7 +9,6 @@ public class StorePage extends BasePage {
     private final By searchButton = By.xpath("//button[normalize-space()='Search']");
     private final By title = By.xpath("//h1[contains(text(),'Blue')]");
     private final By viewCartButton = By.xpath("//a[@title='View cart']");
-
     public StorePage(WebDriver driver) {
         super(driver);
     }
